@@ -125,18 +125,18 @@ const resetGame = () => {
 
       <div class="flex justify-center gap-4 relative md:h-14">
         <button
+          class="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full text-base md:text-xl shadow-lg transform transition hover:scale-110 active:scale-95 cursor-pointer z-20"
           @click="handleYesClick"
-          class="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full text-xl shadow-lg transform transition hover:scale-110 active:scale-95 cursor-pointer z-20"
         >
           ТАК! 🥰
         </button>
 
         <button
           ref="noBtn"
+          class="px-8 py-3 bg-red-500 text-white font-bold rounded-full text-base md:text-xl shadow-lg cursor-pointer z-20"
           @mouseover="runaway"
           @touchstart.prevent="runaway"
           @click="runaway"
-          class="px-8 py-3 bg-red-500 text-white font-bold rounded-full text-xl shadow-lg cursor-pointer z-20"
         >
           НІ 😢
         </button>
@@ -169,8 +169,8 @@ const resetGame = () => {
       </div>
       <button
         type="button"
-        @click="resetGame"
         class="mt-12 text-sm text-gray-400 hover:text-gray-600 underline cursor-pointer"
+        @click="resetGame"
       >
         Спробувати знову
       </button>
