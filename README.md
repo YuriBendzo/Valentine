@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# Valentine's Day - An Important Question 💖
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A fun and interactive Valentine's Day website.
 
-## Setup
+## 🚀 Features
 
-Make sure to install dependencies:
+- **Mood Generator**: Cute cat, coffee, and charisma — everything you need for the perfect question.
+- **Festive Atmosphere**: Confetti, heart animations, and floating elements.
+- **Responsive**: Works on desktops and mobile devices.
+
+## 🛠 Tech Stack
+
+- **Nuxt 4**: Modern framework for Vue.js.
+- **Tailwind CSS v4**: For styling and premium design.
+- **GSAP**: For smooth and fast animations.
+- **Canvas Confetti**: For the festive finale.
+- **VueUse**: For easy interaction with the cursor and browser window.
+
+## 📦 Installation
+
+Make sure you have `pnpm` (or another package manager) installed:
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# Install dependencies
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## 🛠 Development
 
-Start the development server on `http://localhost:3000`:
+Start the development server at `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 🏗 Production
 
-Build the application for production:
+The project is configured as an **SPA** (Single Page Application). To build a static site:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+# Generate static files
+pnpm generate
 ```
 
-Locally preview production build:
+Once completed, the ready files will be in the `.output/public/` directory. They can be deployed to any static hosting (Vercel, Netlify, GitHub Pages, etc.).
 
-```bash
-# npm
-npm run preview
+## 🤝 Contacts
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Created with love and a bit of code. ❤️
