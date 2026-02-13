@@ -1,0 +1,23 @@
+{
+  "name": "valentine",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.15.1",
+    "@nuxt/fonts": "0.13.0",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "nuxt": "4.3.1",
+    "tailwindcss": "^4.1.18",
+    "vue": "3.5.28",
+    "vue-router": "4.6.4"
+  },
+  "packageManager": "pnpm@9.1.0+sha1.217063ce3fcbf44f3051666f38b810f1ddefee4a"
+}
