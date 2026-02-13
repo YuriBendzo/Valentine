@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --font-playpen-sans: "Playpen Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-playpen-sans);
+  }
+}

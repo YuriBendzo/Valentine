@@ -11,4 +11,15 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/fonts', '@nuxt/eslint', '@nuxtjs/google-fonts'],
   css: ['./app/assets/css/main.css'],
+  fonts: {
+    defaults: {
+      weights: [400, 700],
+    },
+    families: [
+      {
+        name: 'Playpen Sans',
+        provider: 'google',
+      },
+    ],
+  }
 })
