@@ -151,7 +151,7 @@ const resetGame = () => {
         class="text-6xl flex items-center font-extrabold text-red-500 mb-4 animate-bounce"
       >
         ЙУХУ!!!
-        <video autoplay loop muted class="w-32">
+        <video autoplay loop muted playsinline class="w-32">
           <source src="/animations/confetti.webm" type="video/webm" />
         </video>
       </h1>
@@ -160,10 +160,10 @@ const resetGame = () => {
         <span class="block">Я теж.</span>
       </p>
       <div class="mt-8 text-8xl flex items-center gap-4">
-        <video autoplay loop muted class="w-32">
+        <video autoplay loop muted playsinline class="w-32">
           <source src="/animations/coffee.webm" type="video/webm" />
         </video>
-        <video autoplay loop muted class="w-32">
+        <video autoplay loop muted playsinline class="w-32">
           <source src="/animations/winking-emoji.webm" type="video/webm" />
         </video>
       </div>
