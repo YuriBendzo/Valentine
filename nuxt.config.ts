@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     ],
   },
 
+  ssr: true,
+
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -34,7 +36,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/valentine/',
+    baseURL: '/',
     head: {
       htmlAttrs: { lang: 'uk' },
       title: 'Важливе питання',
