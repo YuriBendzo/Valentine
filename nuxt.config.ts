@@ -14,9 +14,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   nitro: {
-    prerender: {
-      crawlLinks: true,
-    },
+    preset: 'github_pages',
   },
 
   modules: ['@nuxt/fonts', '@nuxt/eslint'],
@@ -36,7 +34,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/',
+    baseURL: '/Valentine/',
     head: {
       htmlAttrs: { lang: 'uk' },
       title: 'Важливе питання',
