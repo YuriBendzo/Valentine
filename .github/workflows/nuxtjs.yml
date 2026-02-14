@@ -60,8 +60,6 @@ jobs:
 
       - name: Static HTML export with Nuxt
         run: pnpm run generate
-        env:
-          NUXT_APP_BASE_URL: /
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

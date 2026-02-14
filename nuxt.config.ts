@@ -36,7 +36,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/',
     head: {
       htmlAttrs: { lang: 'uk' },
       title: 'Важливе питання',
